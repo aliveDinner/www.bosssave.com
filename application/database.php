@@ -16,13 +16,11 @@ return [
     'hostname'        => '127.0.0.1',
 //    'hostname'        => '47.94.105.213', //57522
     // 数据库名
-    'database'        => 'onalivecar',
+    'database'        => 'bosssave',
     // 用户名
-//    'username'        => 'root',
-    'username'        => 'onalivecar',
+    'username'        => 'root',
     // 密码
-//    'password'        => 'root',
-    'password'        => '@onalivecar',
+    'password'        => 'root',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
@@ -32,7 +30,7 @@ return [
     // 数据库编码默认采用utf8
     'charset'         => 'utf8',
     // 数据库表前缀
-    'prefix'          => 'oac_',
+    'prefix'          => 'bs_',
     // 数据库调试模式
     'debug'           => true,
     // 数据库部署方式:0 集中式(单一服务器),1 分布式(主从服务器)
